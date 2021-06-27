@@ -20,7 +20,9 @@
   },
   "homepage": "https://github.com/japankid-code/food-festival#readme",
   "devDependencies": {
+    "file-loader": "^6.2.0",
     "webpack": "^5.40.0",
+    "webpack-bundle-analyzer": "^4.4.2",
     "webpack-cli": "^4.7.2"
   },
   "dependencies": {
