@@ -19,7 +19,7 @@ function createEl(htmlString, attrs, ...children) {
     }
   }
 
-  children.forEach(function (child) {
+  children.forEach(function(child) {
     let node;
 
     if (child.constructor.name.includes("Element")) {
