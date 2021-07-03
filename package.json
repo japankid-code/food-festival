@@ -1,28 +1,37 @@
 {
-  "name": "module-18-project",
+  "name": "food-festival",
   "version": "1.0.0",
   "description": "",
-  "main": "assets/js/script.js",
+  "main": "index.js",
   "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
     "webpack": "webpack --watch",
     "build": "webpack",
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start:dev": "webpack-dev-server"
+    "start:dev": "webpack serve"
   },
-  "keywords": [],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/japankid-code/food-festival.git"
+  },
   "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/japankid-code/food-festival/issues"
+  },
+  "homepage": "https://github.com/japankid-code/food-festival#readme",
   "devDependencies": {
     "file-loader": "^6.2.0",
-    "image-webpack-loader": "^6.0.0",
-    "webpack": "^4.32.2",
-    "webpack-bundle-analyzer": "^3.6.0",
-    "webpack-cli": "^3.3.2",
-    "webpack-dev-server": "^3.11.2"
+    "webpack": "^5.41.0",
+    "webpack-bundle-analyzer": "^4.4.2",
+    "webpack-cli": "^4.7.2",
+    "webpack-dev-server": "^3.11.2",
+    "webpack-pwa-manifest": "^4.3.0"
   },
   "dependencies": {
+    "@popperjs/core": "^2.9.2",
     "bootstrap": "^4.3.1",
-    "jquery": "^3.4.1",
-    "popper.js": "^1.16.0"
+    "image-webpack-loader": "^7.0.1",
+    "jquery": "^3.6.0",
+    "popper.js": "^1.16.1"
   }
 }
